@@ -1,0 +1,16 @@
+/usr/local/lib/libpmc.so
+/usr/local/lib/cmake/pmc/pmcTargets.cmake
+/usr/local/lib/cmake/pmc/pmcTargets-noconfig.cmake
+/usr/local/include/pmc/pmc_input.h
+/usr/local/include/pmc/pmc_heu.h
+/usr/local/include/pmc/pmc_neigh_cores.h
+/usr/local/include/pmc/pmcx_maxclique.h
+/usr/local/include/pmc/pmc.h
+/usr/local/include/pmc/pmc_neigh_coloring.h
+/usr/local/include/pmc/pmc_maxclique.h
+/usr/local/include/pmc/pmc_graph.h
+/usr/local/include/pmc/pmcx_maxclique_basic.h
+/usr/local/include/pmc/pmc_headers.h
+/usr/local/include/pmc/pmc_vertex.h
+/usr/local/include/pmc/pmc_utils.h
+/usr/local/lib/cmake/pmc/pmcConfig.cmake

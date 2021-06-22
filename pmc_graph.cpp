@@ -159,8 +159,19 @@ pmc_graph::pmc_graph(long long nedges, const int *ei, const int *ej, int offset)
 }
 
 pmc_graph::pmc_graph(map<int,vector<int> > v_map) {
+  initialize();
   vertices.push_back(edges.size());
   for (int i=0;i < v_map.size(); i++) {
+    edges.insert(edges.end(),v_map[i].begin(),v_map[i].end());
+    vertices.push_back(edges.size());
+  }
+  vertex_degrees();
+}
+
+pmc_graph::pmc_graph(const vector<int> *v_map,const int size) {
+  initialize();
+  vertices.push_back(edges.size());
+  for (int i=0;i < size; i++) {
     edges.insert(edges.end(),v_map[i].begin(),v_map[i].end());
     vertices.push_back(edges.size());
   }

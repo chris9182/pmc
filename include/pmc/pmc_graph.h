@@ -62,6 +62,7 @@ namespace pmc {
             }
             pmc_graph(long long nedges, const int *ei, const int *ej, int offset);
             pmc_graph(map<int,vector<int> > v_map);
+            pmc_graph(const vector<int> *v_map,const int size) ;
                 
             // destructor
             ~pmc_graph();

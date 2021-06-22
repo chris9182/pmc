@@ -1,0 +1,8 @@
+/home/chris/git/pmc/build/CMakeFiles/install/strip.dir
+/home/chris/git/pmc/build/CMakeFiles/install/local.dir
+/home/chris/git/pmc/build/CMakeFiles/pmc_main.dir
+/home/chris/git/pmc/build/CMakeFiles/edit_cache.dir
+/home/chris/git/pmc/build/CMakeFiles/rebuild_cache.dir
+/home/chris/git/pmc/build/CMakeFiles/pmc.dir
+/home/chris/git/pmc/build/CMakeFiles/list_install_components.dir
+/home/chris/git/pmc/build/CMakeFiles/install.dir
